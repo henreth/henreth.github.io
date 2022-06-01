@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d57fcbd.css",
+    "main.js": "/static/js/main.dd9d849e.js",
+    "static/media/ghostd-demo.gif": "/static/media/ghostd-demo.d8911d56e8fa6669050c.gif",
+    "static/media/pocket-demo.gif": "/static/media/pocket-demo.6d78e2cd7892c2bebdc3.gif",
+    "static/media/guthub-demo.gif": "/static/media/guthub-demo.b35ce4cb466d71b49250.gif",
+    "static/media/me.jpeg": "/static/media/me.c05f42d27bd15bbb0753.jpeg",
+    "static/media/python.png": "/static/media/python.67a96446f70ae7be72e9.png",
+    "static/media/postgresql.png": "/static/media/postgresql.77effd05cdc4075a0c45.png",
+    "static/media/react.png": "/static/media/react.b76698cf6e821b8a8758.png",
+    "static/media/nodejs.png": "/static/media/nodejs.774d49812d5a2ab515ff.png",
+    "static/media/ruby.png": "/static/media/ruby.5d2f361efdd0664f4e15.png",
+    "static/media/rails.png": "/static/media/rails.ea7de2bec9e09b58b5b0.png",
+    "static/media/css3.png": "/static/media/css3.41f553cfa482247b600d.png",
+    "static/media/html5.png": "/static/media/html5.54aecf4a63801d9c3481.png",
+    "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
+    "index.html": "/index.html",
+    "main.5d57fcbd.css.map": "/static/css/main.5d57fcbd.css.map",
+    "main.dd9d849e.js.map": "/static/js/main.dd9d849e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d57fcbd.css",
+    "static/js/main.dd9d849e.js"
+  ]
+}
