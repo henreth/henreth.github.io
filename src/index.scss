@@ -1,0 +1,26 @@
+
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgb(15, 15, 15) !important;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace !important;
+    max-width: 100vw !important;
+    overflow-x: hidden;
+}
+
+.port-section {
+    position: relative;
+    height: 100vh;
+    transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transition: transform 0.5s;
+    -webkit-transition: -webkit-transform 0.5s;
+    -moz-transition: -webkit-transform 0.5s;
+    -o-transition: -webkit-transform 0.5s;
+}
+

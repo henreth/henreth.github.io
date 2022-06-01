@@ -1,10 +1,8 @@
-
+import Home from "../Home/Home"
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div>Test</div>
+      <Home />
   );
 }
-
-export default App;
