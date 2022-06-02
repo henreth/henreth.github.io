@@ -10,6 +10,7 @@ import guthubGif from "./guthub/guthub-demo.gif"
 import pocketLogo from "./pocket/pocket-logo.png"
 import pocketGif from "./pocket/pocket-demo.gif"
 import nasavisionLogo from "./space/nasavision.png"
+import nasavisionGif from "./space/nasavision-demo.gif"
 
 import "./Projects.css"
 
@@ -85,7 +86,7 @@ export default function Projects() {
                             src={nasavisionLogo}
                             alt="nasavision"
                         />
-                        <ReactTooltip id='space' place="bottom" type='light'>
+                        <ReactTooltip id='space' place="bottom" type='warning'>
                             <span>NASAVISION</span>
                         </ReactTooltip>
                     </button>
@@ -210,7 +211,7 @@ export default function Projects() {
                     <React.Fragment>
                         <h2 className="project-title space">NASAVISION</h2>
                         <div className="project-display">
-                            <img src={ghostdGif} width="950" />
+                            <img src={nasavisionGif} width="950" />
                         </div>
                         <div className="project-description">
                             <b className="project-tagline">A webpage that peers into the universe through the eyes of NASA.</b>
