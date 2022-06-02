@@ -15,7 +15,7 @@ import nasavisionGif from "./space/nasavision-demo.gif"
 import "./Projects.css"
 
 export default function Projects() {
-    const [project, setProject] = useState('pocket');
+    const [project, setProject] = useState('default');
 
     const clickPocket = () => setProject('pocket');
     const clickGuthub = () => setProject('guthub');
@@ -44,7 +44,7 @@ export default function Projects() {
     return (
         <div className="port-section">
             <div>
-                <h1 className='tech-title'></h1>
+                <h1 className='project-header'>-</h1>
                 <div className="project-options">
                     <button onClick={clickPocket}>
                         <img
@@ -92,6 +92,32 @@ export default function Projects() {
                     </button>
 
                 </div>
+
+                {project === 'default' ? (
+                    <React.Fragment>
+                        <h2 className="project-title">PROJECTS</h2>
+                        <div className="project-display">
+                            {/* <img src={nasavisionGif} width="750" /> */}
+                        </div>
+                        <div className="project-description">
+                            <b className="project-tagline">Click an icon above to view more information about each project.</b>
+                            <div className="project-features">
+                                <br />
+                                <h2 className="project-title pocket ">>Pocket Programmers_</h2>
+                                <br />
+                                <h2 className="project-title guthub">GutHub</h2>
+
+                                <br />
+                                <h2 className="project-title ghostd">ghostD</h2>
+
+                                <br />
+                                <h2 className="project-title space">NASAVISION</h2>
+
+                            </div>
+                        </div>
+
+                    </React.Fragment>
+                ) : null}
 
                 {project === 'pocket' ? (
                     <React.Fragment>
@@ -211,7 +237,7 @@ export default function Projects() {
                     <React.Fragment>
                         <h2 className="project-title space">NASAVISION</h2>
                         <div className="project-display">
-                            <img src={nasavisionGif} width="950" />
+                            <img src={nasavisionGif} width="750" />
                         </div>
                         <div className="project-description">
                             <b className="project-tagline">A webpage that peers into the universe through the eyes of NASA.</b>

@@ -65,12 +65,21 @@
     }
 }
 
+.project-header {
+    font-family: 'Ubuntu Mono', monospace;
+    color: transparent;
+    text-transform: lowercase;
+    text-align: center;
+    user-select: none;
+    margin-bottom: 0px;
+  }
+
 .project-options {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    // margin-top: 80px;
+    margin-bottom: 25px;
 
     button {
         background: transparent;
@@ -85,7 +94,7 @@
     cursor: pointer;
     // margin-left: 50px;
     // margin-right: 50px;
-    width: 60px;
+    width: 50px;
     transform: scale(1.25);
 
     &.ghost{
