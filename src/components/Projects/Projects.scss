@@ -7,6 +7,15 @@
     display: flex;
     justify-content: center;
     left: 50;
+
+    &.images{
+        margin-top: 15px;
+    }
+}
+
+.project-photo{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .project-footer {
@@ -62,6 +71,15 @@
     &.space{
         font-family: 'Kdam Thmor Pro', sans-serif;
         color: white;
+    }
+
+    &.photo{
+        font-size: 12px;
+    }
+
+    &.default{
+        text-shadow: rgb(126, 126, 126) 0px 0px 10px;
+
     }
 }
 

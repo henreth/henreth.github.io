@@ -5,12 +5,16 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faWindowRestore } from "@fortawesome/free-solid-svg-icons"
 import ghostdLogo from "./ghostd/ghostd-logo.png"
 import ghostdGif from "./ghostd/ghostd-demo.gif"
+import ghostdPhoto from "./ghostd/ghostd-photo.png"
 import guthublogo from "./guthub/guthub-logo.png"
 import guthubGif from "./guthub/guthub-demo.gif"
+import guthubPhoto from "./guthub/guthub-photo.png"
 import pocketLogo from "./pocket/pocket-logo.png"
 import pocketGif from "./pocket/pocket-demo.gif"
+import pocketPhoto from "./pocket/pocket-photo.png"
 import nasavisionLogo from "./space/nasavision.png"
 import nasavisionGif from "./space/nasavision-demo.gif"
+import nasavisionPhoto from "./space/nasavision-photo.png"
 
 import "./Projects.css"
 
@@ -95,24 +99,29 @@ export default function Projects() {
 
                 {project === 'default' ? (
                     <React.Fragment>
-                        <h2 className="project-title">PROJECTS</h2>
-                        <div className="project-display">
-                            {/* <img src={nasavisionGif} width="750" /> */}
-                        </div>
+                        <h2 className="project-title default">PROJECTS</h2>
                         <div className="project-description">
                             <b className="project-tagline">Click an icon above to view more information about each project.</b>
-                            <div className="project-features">
-                                <br />
-                                <h2 className="project-title pocket ">>Pocket Programmers_</h2>
-                                <br />
-                                <h2 className="project-title guthub">GutHub</h2>
+                        </div>
+                        <div className="project-display images">
+                            <div className="project-photo">
+                                <img src={pocketPhoto} width="500" />
+                                <h4 className="project-title pocket photo">>Pocket Programmers_</h4>
+                            </div>
+                            <div className="project-photo">
+                            <img src={guthubPhoto} width="500" />
+                            <h4 className="project-title guthub photo">GutHub</h4>
+                            </div>
+                        </div>
+                        <div className="project-display images">
+                            <div className="project-photo">
+                            <img src={ghostdPhoto} width="500" />
+                            <h4 className="project-title ghostd photo">ghostD</h4>
 
-                                <br />
-                                <h2 className="project-title ghostd">ghostD</h2>
-
-                                <br />
-                                <h2 className="project-title space">NASAVISION</h2>
-
+                            </div>
+                            <div className="project-photo">
+                            <img src={nasavisionPhoto} width="500" />
+                            <h4 className="project-title space photo">NASAVISION</h4>
                             </div>
                         </div>
 
