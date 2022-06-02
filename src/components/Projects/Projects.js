@@ -9,6 +9,7 @@ import guthublogo from "./guthub/guthub-logo.png"
 import guthubGif from "./guthub/guthub-demo.gif"
 import pocketLogo from "./pocket/pocket-logo.png"
 import pocketGif from "./pocket/pocket-demo.gif"
+import nasavisionLogo from "./space/nasavision.png"
 
 import "./Projects.css"
 
@@ -18,8 +19,9 @@ export default function Projects() {
     const clickPocket = () => setProject('pocket');
     const clickGuthub = () => setProject('guthub');
     const clickGhostd = () => setProject('ghostd');
+    const clickSpace = () => setProject('space');
 
-    const madeWithStack = <React.Fragment>
+    const madeWithFullStack = <React.Fragment>
         <div>Made With:</div>
         <div>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
@@ -27,6 +29,14 @@ export default function Projects() {
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" />
+        </div>
+    </React.Fragment>
+
+    const madeWithFrontEnd = <React.Fragment>
+        <div>Made With:</div>
+        <div>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
         </div>
     </React.Fragment>
 
@@ -42,7 +52,7 @@ export default function Projects() {
                             src={pocketLogo}
                             alt="pocket"
                         />
-                        <ReactTooltip id='pocket' type='light'>
+                        <ReactTooltip id='pocket' place="bottom" type='success'>
                             <span>Pocket Programmers</span>
                         </ReactTooltip>
                     </button>
@@ -53,7 +63,7 @@ export default function Projects() {
                             src={guthublogo}
                             alt="guthub"
                         />
-                        <ReactTooltip id='guthub' type='light'>
+                        <ReactTooltip id='guthub' place="bottom" type='info'>
                             <span>GutHub</span>
                         </ReactTooltip>
                     </button>
@@ -64,8 +74,19 @@ export default function Projects() {
                             src={ghostdLogo}
                             alt="ghostd"
                         />
-                        <ReactTooltip id='ghostd' type='light'>
+                        <ReactTooltip id='ghostd' place="bottom" type='error'>
                             <span>ghostd</span>
+                        </ReactTooltip>
+                    </button>
+                    <button onClick={clickSpace}>
+                        <img
+                            data-tip data-for='space'
+                            className={project === "space" ? "project-logo" : "project-logo unClicked"}
+                            src={nasavisionLogo}
+                            alt="nasavision"
+                        />
+                        <ReactTooltip id='space' place="bottom" type='light'>
+                            <span>NASAVISION</span>
                         </ReactTooltip>
                     </button>
 
@@ -88,7 +109,7 @@ export default function Projects() {
                                 - Track and visualize individual card transaction history
                                 <br />
                             </div>
-                            {madeWithStack}
+                            {madeWithFullStack}
                         </div>
 
                         <div className="project-footer">
@@ -125,7 +146,7 @@ export default function Projects() {
                                 - View and save cocktail recipe lists for future reference
                                 <br />
                             </div>
-                            {madeWithStack}
+                            {madeWithFullStack}
                         </div>
 
                         <div className="project-footer">
@@ -163,7 +184,7 @@ export default function Projects() {
                                 - Match with 40+ unique profiles.
                                 <br />
                             </div>
-                            {madeWithStack}
+                            {madeWithFullStack}
                         </div>
 
                         <div className="project-footer">
@@ -171,6 +192,45 @@ export default function Projects() {
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
                             <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="https://ghostd-app.herokuapp.com/">
+                                <FontAwesomeIcon icon={faWindowRestore} />
+                            </a>
+                            <ReactTooltip id='repo' type='light'>
+                                <span>GitHub Repo</span>
+                            </ReactTooltip>
+                            <ReactTooltip id='deployed' type='light'>
+                                <span>Live Demo</span>
+                            </ReactTooltip>
+                        </div>
+
+                    </React.Fragment>
+                ) : null}
+
+
+                {project === 'space' ? (
+                    <React.Fragment>
+                        <h2 className="project-title space">NASAVISION</h2>
+                        <div className="project-display">
+                            <img src={ghostdGif} width="950" />
+                        </div>
+                        <div className="project-description">
+                            <b className="project-tagline">A webpage that peers into the universe through the eyes of NASA.</b>
+                            <div className="project-features">
+                                <br />
+                                - View photo of the day provided by the official NASA API
+                                <br />
+                                - Learn about the earth, our solar system, the universe, and more.
+                                <br />
+                                - Updates daily with new photo and information
+                                <br />
+                            </div>
+                            {madeWithFrontEnd}
+                        </div>
+
+                        <div className="project-footer">
+                            <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/nasavision" >
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="https://henreth.github.io/nasavision/">
                                 <FontAwesomeIcon icon={faWindowRestore} />
                             </a>
                             <ReactTooltip id='repo' type='light'>
