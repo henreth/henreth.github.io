@@ -1,11 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9eb4f73.css",
-    "main.js": "/static/js/main.a50bf137.js",
+    "main.css": "/static/css/main.92d35f1a.css",
+    "main.js": "/static/js/main.e57a7d41.js",
     "static/media/ghostd-demo.gif": "/static/media/ghostd-demo.d8911d56e8fa6669050c.gif",
     "static/media/pocket-demo.gif": "/static/media/pocket-demo.6d78e2cd7892c2bebdc3.gif",
     "static/media/guthub-demo.gif": "/static/media/guthub-demo.b35ce4cb466d71b49250.gif",
+    "static/media/guthub-photo.png": "/static/media/guthub-photo.ddc8c242e017c2fd6ced.png",
+    "static/media/pocket-photo.png": "/static/media/pocket-photo.94f1a61d85c0e90ccedf.png",
     "static/media/nasavision-demo.gif": "/static/media/nasavision-demo.3fa1459d9581995b3946.gif",
+    "static/media/nasavision-photo.png": "/static/media/nasavision-photo.85bc7d9f16dd0b0873c7.png",
+    "static/media/ghostd-photo.png": "/static/media/ghostd-photo.fe9123cac870276a4ccc.png",
     "static/media/me.jpeg": "/static/media/me.c05f42d27bd15bbb0753.jpeg",
     "static/media/python.png": "/static/media/python.67a96446f70ae7be72e9.png",
     "static/media/postgresql.png": "/static/media/postgresql.77effd05cdc4075a0c45.png",
@@ -17,11 +21,11 @@
     "static/media/html5.png": "/static/media/html5.54aecf4a63801d9c3481.png",
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.f9eb4f73.css.map": "/static/css/main.f9eb4f73.css.map",
-    "main.a50bf137.js.map": "/static/js/main.a50bf137.js.map"
+    "main.92d35f1a.css.map": "/static/css/main.92d35f1a.css.map",
+    "main.e57a7d41.js.map": "/static/js/main.e57a7d41.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9eb4f73.css",
-    "static/js/main.a50bf137.js"
+    "static/css/main.92d35f1a.css",
+    "static/js/main.e57a7d41.js"
   ]
 }
