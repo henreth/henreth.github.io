@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d57fcbd.css",
-    "main.js": "/static/js/main.dd9d849e.js",
+    "main.css": "/static/css/main.f9eb4f73.css",
+    "main.js": "/static/js/main.a50bf137.js",
     "static/media/ghostd-demo.gif": "/static/media/ghostd-demo.d8911d56e8fa6669050c.gif",
     "static/media/pocket-demo.gif": "/static/media/pocket-demo.6d78e2cd7892c2bebdc3.gif",
     "static/media/guthub-demo.gif": "/static/media/guthub-demo.b35ce4cb466d71b49250.gif",
+    "static/media/nasavision-demo.gif": "/static/media/nasavision-demo.3fa1459d9581995b3946.gif",
     "static/media/me.jpeg": "/static/media/me.c05f42d27bd15bbb0753.jpeg",
     "static/media/python.png": "/static/media/python.67a96446f70ae7be72e9.png",
     "static/media/postgresql.png": "/static/media/postgresql.77effd05cdc4075a0c45.png",
@@ -16,11 +17,11 @@
     "static/media/html5.png": "/static/media/html5.54aecf4a63801d9c3481.png",
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.5d57fcbd.css.map": "/static/css/main.5d57fcbd.css.map",
-    "main.dd9d849e.js.map": "/static/js/main.dd9d849e.js.map"
+    "main.f9eb4f73.css.map": "/static/css/main.f9eb4f73.css.map",
+    "main.a50bf137.js.map": "/static/js/main.a50bf137.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d57fcbd.css",
-    "static/js/main.dd9d849e.js"
+    "static/css/main.f9eb4f73.css",
+    "static/js/main.a50bf137.js"
   ]
 }
