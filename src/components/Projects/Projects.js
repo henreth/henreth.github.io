@@ -252,9 +252,9 @@ export default function Projects() {
                             <b className="project-tagline">A webpage that peers into the universe through the eyes of NASA.</b>
                             <div className="project-features">
                                 <br />
-                                - View photo of the day provided by the official NASA API
+                                - View the space themed photo of the day provided by the official NASA API
                                 <br />
-                                - Learn about the earth, our solar system, the universe, and more.
+                                - Learn about the earth, the solar system, the universe, and more
                                 <br />
                                 - Updates daily with new photo and information
                                 <br />
