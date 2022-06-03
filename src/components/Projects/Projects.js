@@ -132,7 +132,7 @@ export default function Projects() {
                     <React.Fragment>
                         <h2 className="project-title pocket ">>Pocket Programmers_</h2>
                         <div className="project-display">
-                            <img src={pocketGif} width="800" />
+                            <img src={pocketGif} width="700" />
                         </div>
                         <div className="project-description">
                             <b className="project-tagline">A digital trading card experience where users can open packs, unlock cards, and trade with other users.</b>
@@ -171,7 +171,7 @@ export default function Projects() {
                     <React.Fragment>
                         <h2 className="project-title guthub">GutHub</h2>
                         <div className="project-display">
-                            <img src={guthubGif} width="900" />
+                            <img src={guthubGif} width="800" />
                         </div>
                         <div className="project-description">
                             <b className="project-tagline">An interactive web application in which users can make, view, or save their favorite cocktails.</b>
@@ -210,7 +210,7 @@ export default function Projects() {
                     <React.Fragment>
                         <h2 className="project-title ghostd">ghostD</h2>
                         <div className="project-display">
-                            <img src={ghostdGif} width="950" />
+                            <img src={ghostdGif} width="850" />
                         </div>
                         <div className="project-description">
                             <b className="project-tagline">A simulated dating app experience themed around creating matches with famous historical figures and ghosts from popular culture.</b>
@@ -250,7 +250,7 @@ export default function Projects() {
                     <React.Fragment>
                         <h2 className="project-title space">NASAVISION</h2>
                         <div className="project-display">
-                            <img src={nasavisionGif} width="750" />
+                            <img src={nasavisionGif} width="650" />
                         </div>
                         <div className="project-description">
                             <b className="project-tagline">A webpage that peers into the universe through the eyes of NASA.</b>
