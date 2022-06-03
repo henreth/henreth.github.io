@@ -24,12 +24,12 @@
 
 .project-footer {
     margin-top: 20px;
-    margin-bottom: 20px;
     text-align: center;
-    font-size: 40px;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .project-description{
@@ -154,4 +154,10 @@
     margin-right: 15px;
     font-size: 47.5px;
     color: white;
+}
+
+.madewidth{
+    display: flex;
+    flex-direction: column;
+
 }

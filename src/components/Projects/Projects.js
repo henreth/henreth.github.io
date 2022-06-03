@@ -26,7 +26,7 @@ export default function Projects() {
     const clickGhostd = () => setProject('ghostd');
     const clickSpace = () => setProject('space');
 
-    const madeWithFullStack = <React.Fragment>
+    const madeWithFullStack = <div className="madewith">
         <div>Made With:</div>
         <div>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
@@ -35,15 +35,15 @@ export default function Projects() {
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" alt="rails" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40" />
         </div>
-    </React.Fragment>
+    </div>
 
-    const madeWithFrontEnd = <React.Fragment>
-        <div>Made With:</div>
+    const madeWithFrontEnd = <div className="madewith">
+        <div className='madewith-title'>Made With:</div>
         <div>
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
         </div>
-    </React.Fragment>
+    </div>
 
     return (
         <div className="port-section">
@@ -145,10 +145,12 @@ export default function Projects() {
                                 - Track and visualize individual card transaction history
                                 <br />
                             </div>
-                            {madeWithFullStack}
+
                         </div>
 
                         <div className="project-footer">
+                        {madeWithFullStack}
+
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/pocketpros" >
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
@@ -182,10 +184,11 @@ export default function Projects() {
                                 - View and save cocktail recipe lists for future reference
                                 <br />
                             </div>
-                            {madeWithFullStack}
                         </div>
 
                         <div className="project-footer">
+                        {madeWithFullStack}
+
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/guthub">
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
@@ -220,10 +223,11 @@ export default function Projects() {
                                 - Match with 40+ unique profiles.
                                 <br />
                             </div>
-                            {madeWithFullStack}
                         </div>
 
                         <div className="project-footer">
+                        {madeWithFullStack}
+
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/ghostd" >
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
@@ -259,10 +263,11 @@ export default function Projects() {
                                 - Updates daily with new photo and information
                                 <br />
                             </div>
-                            {madeWithFrontEnd}
                         </div>
 
                         <div className="project-footer">
+                        {madeWithFrontEnd}
+
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/nasavision" >
                                 <FontAwesomeIcon icon={faGithub} />
                             </a>
