@@ -105,22 +105,22 @@ export default function Projects() {
                         </div>
                         <div className="project-display images">
                             <div className="project-photo">
-                                <img src={pocketPhoto} width="500" />
+                                <img src={pocketPhoto} width="450" />
                                 <h4 className="project-title pocket photo">>Pocket Programmers_</h4>
                             </div>
                             <div className="project-photo">
-                            <img src={guthubPhoto} width="500" />
+                            <img src={guthubPhoto} width="450" />
                             <h4 className="project-title guthub photo">GutHub</h4>
                             </div>
                         </div>
-                        <div className="project-display images">
+                        <div className="project-display images line-2">
                             <div className="project-photo">
-                            <img src={ghostdPhoto} width="500" />
+                            <img src={ghostdPhoto} width="450" />
                             <h4 className="project-title ghostd photo">ghostD</h4>
 
                             </div>
                             <div className="project-photo">
-                            <img src={nasavisionPhoto} width="500" />
+                            <img src={nasavisionPhoto} width="450" />
                             <h4 className="project-title space photo">NASAVISION</h4>
                             </div>
                         </div>
