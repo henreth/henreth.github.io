@@ -35,9 +35,7 @@
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
-  -webkit-box-align: space-evenly !important;
-      -ms-flex-align: space-evenly !important;
-          align-items: space-evenly !important;
+  margin-top: 5%;
 }
 
 .about-description {
