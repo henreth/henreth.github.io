@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e67210e.css",
-    "main.js": "/static/js/main.e5bf7687.js",
+    "main.css": "/static/css/main.17737cf5.css",
+    "main.js": "/static/js/main.a4f958df.js",
     "static/media/ghostd-demo.gif": "/static/media/ghostd-demo.d8911d56e8fa6669050c.gif",
     "static/media/pocket-demo.gif": "/static/media/pocket-demo.6d78e2cd7892c2bebdc3.gif",
     "static/media/guthub-demo.gif": "/static/media/guthub-demo.b35ce4cb466d71b49250.gif",
@@ -21,11 +21,11 @@
     "static/media/html5.png": "/static/media/html5.54aecf4a63801d9c3481.png",
     "static/media/javascript.png": "/static/media/javascript.266bd9fb2663dcc057b4.png",
     "index.html": "/index.html",
-    "main.4e67210e.css.map": "/static/css/main.4e67210e.css.map",
-    "main.e5bf7687.js.map": "/static/js/main.e5bf7687.js.map"
+    "main.17737cf5.css.map": "/static/css/main.17737cf5.css.map",
+    "main.a4f958df.js.map": "/static/js/main.a4f958df.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e67210e.css",
-    "static/js/main.e5bf7687.js"
+    "static/css/main.17737cf5.css",
+    "static/js/main.a4f958df.js"
   ]
 }
