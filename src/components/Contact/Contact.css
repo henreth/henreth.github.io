@@ -51,5 +51,13 @@
   margin-right: 30px;
   font-size: 65px;
   color: white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.contact-option:hover {
+  color: #7e7e7e;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 /*# sourceMappingURL=Contact.css.map */
