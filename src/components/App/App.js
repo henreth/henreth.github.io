@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, { useEffect, useState } from "react"
 import Home from "../Home/Home"
 import './App.css';
 import About from "../About/About"
@@ -10,18 +10,19 @@ import { scroller as Scroll } from "react-scroll"
 
 
 export default function App() {
-  let [showNavigation,setShowNavigation] = useState(false)
+  let [showNavigation, setShowNavigation] = useState(false)
 
-  useEffect(()=>{
+  useEffect(() => {
     window.addEventListener("scroll", () => {
-    if (window.scrollY < 650) {
-      setShowNavigation(false);
+      if (window.scrollY < 650) {
+        setShowNavigation(false);
 
-    }
-    if (window.scrollY > 650) {
-      setShowNavigation(true);
-  }
-  })},[window.scrollY])
+      }
+      if (window.scrollY > 650) {
+        setShowNavigation(true);
+      }
+    })
+  }, [window.scrollY])
 
   function aboutScroll() {
     Scroll.scrollTo("about", {
@@ -79,16 +80,16 @@ export default function App() {
       <div className="about-section" name="about">
         <About />
       </div>
-      <hr />
       <div className="projects-section" name="projects">
+        <hr />
         <Projects />
       </div>
-      <hr />
       <div className="tech-section" name="tech" >
+        <hr />
         <Tech />
       </div>
-      <hr />
       <div className="contact-section" name="contact">
+        <hr />
         <Contact />
       </div>
     </div>
