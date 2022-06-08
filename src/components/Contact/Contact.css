@@ -60,4 +60,10 @@
   -webkit-transition: .5s;
   transition: .5s;
 }
+
+.contact-option:active {
+  color: #cfcfcf;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
 /*# sourceMappingURL=Contact.css.map */

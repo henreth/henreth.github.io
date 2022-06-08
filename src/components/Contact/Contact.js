@@ -24,19 +24,19 @@ export default function Contact() {
                         </a>
                     </div>
 
-                    <ReactTooltip id='email' type='light'>
+                    <ReactTooltip id='email' type='light' effect='solid'>
                         <span>Email Me</span>
                     </ReactTooltip>
 
-                    <ReactTooltip id='resume' type='light'>
+                    <ReactTooltip id='resume' type='light' effect='solid'>
                         <span>My Resume</span>
                     </ReactTooltip>
 
-                    <ReactTooltip id='linkedin' type='light'>
+                    <ReactTooltip id='linkedin' type='light' effect='solid'>
                         <span>My LinkedIn</span>
                     </ReactTooltip>
 
-                    <ReactTooltip id='github' type='light'>
+                    <ReactTooltip id='github' type='light' effect='solid'>
                         <span>My GitHub</span>
                     </ReactTooltip>
             </div>
