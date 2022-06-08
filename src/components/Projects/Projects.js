@@ -57,7 +57,7 @@ export default function Projects() {
                             src={pocketLogo}
                             alt="pocket"
                         />
-                        <ReactTooltip id='pocket' place="bottom" type='success'>
+                        <ReactTooltip id='pocket' place="bottom" type='success' effect='solid'>
                             <span>Pocket Programmers</span>
                         </ReactTooltip>
                     </button>
@@ -68,7 +68,7 @@ export default function Projects() {
                             src={guthublogo}
                             alt="guthub"
                         />
-                        <ReactTooltip id='guthub' place="bottom" type='info'>
+                        <ReactTooltip id='guthub' place="bottom" type='info' effect='solid'>
                             <span>GutHub</span>
                         </ReactTooltip>
                     </button>
@@ -79,7 +79,7 @@ export default function Projects() {
                             src={ghostdLogo}
                             alt="ghostd"
                         />
-                        <ReactTooltip id='ghostd' place="bottom" type='error'>
+                        <ReactTooltip id='ghostd' place="bottom" type='error' effect='solid'>
                             <span>ghostd</span>
                         </ReactTooltip>
                     </button>
@@ -90,7 +90,7 @@ export default function Projects() {
                             src={nasavisionLogo}
                             alt="nasavision"
                         />
-                        <ReactTooltip id='space' place="bottom" type='warning'>
+                        <ReactTooltip id='space' place="bottom" type='warning' effect='solid'>
                             <span>NASAVISION</span>
                         </ReactTooltip>
                     </button>
