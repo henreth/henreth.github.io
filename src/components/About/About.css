@@ -1,3 +1,7 @@
+.about-section {
+  height: 110vh;
+}
+
 .about {
   display: -webkit-box;
   display: -ms-flexbox;

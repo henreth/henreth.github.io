@@ -1,12 +1,13 @@
-export default function NavBar({}) {
+import "./Navigation.css"
+
+export default function NavBar({ homeScroll, aboutScroll, projectsScroll, techScroll, contactScroll }) {
     return (
-            <div className="nav-main">
-                <ul>
-                    <li className="about" onClick={scrollToAbout}>ABOUT</li>
-                    <li className="projects" onClick={scrollToProjects}>PORTFOLIO</li>
-                    <li className="skills" onClick={scrollToTech}>SKILLS</li>
-                    <li className="contact" onClick={scrollToContact}>CONTACT</li>
-                </ul>
-            </div>
+        <div className="nav-main">
+            <button className='navigation-link' onClick={homeScroll}>Home</button>
+            <button className='navigation-link' onClick={aboutScroll}>About</button>
+            <button className='navigation-link' onClick={projectsScroll}>Projects</button>
+            <button className='navigation-link' onClick={techScroll}>Skills</button>
+            <button className='navigation-link' onClick={contactScroll}>Contact</button>
+        </div>
     )
 }

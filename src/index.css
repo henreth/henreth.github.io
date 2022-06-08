@@ -11,7 +11,6 @@ body {
 
 .port-section {
   position: relative;
-  height: 110vh;
   transform-style: preserve-3d;
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;

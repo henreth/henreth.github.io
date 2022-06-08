@@ -1,49 +1,80 @@
+import React, {useEffect, useState} from "react"
 import Home from "../Home/Home"
 import './App.css';
 import About from "../About/About"
 import Projects from "../Projects/Projects"
 import Tech from "../Tech/Tech"
 import Contact from "../Contact/Contact"
+import Navigation from "../Navigation/Navigation"
 import { scroller as Scroll } from "react-scroll"
 
+
 export default function App() {
+  let [showNavigation,setShowNavigation] = useState(false)
+
+  useEffect(()=>{
+    window.addEventListener("scroll", () => {
+    if (window.scrollY < 650) {
+      setShowNavigation(false);
+
+    }
+    if (window.scrollY > 650) {
+      setShowNavigation(true);
+  }
+  })},[window.scrollY])
 
   function aboutScroll() {
     Scroll.scrollTo("about", {
-        smooth: true
+      smooth: true
     });
-}
+  }
 
-function projectsScroll() {
+  function projectsScroll() {
     Scroll.scrollTo("projects", {
-        smooth: true
+      smooth: true
     });
-}
+  }
 
-function techScroll() {
+  function techScroll() {
     Scroll.scrollTo("tech", {
-        smooth: true
+      smooth: true
     });
-}
+  }
 
-function contactScroll() {
+  function contactScroll() {
     Scroll.scrollTo("contact", {
-        smooth: true
+      smooth: true
     });
-}
+  }
+
+  function homeScroll() {
+    Scroll.scrollTo("home", {
+      smooth: true
+    });
+  }
 
 
 
 
   return (
     <div id="home" className="port-section">
-      <div className="home-section">
-        <Home 
+      {showNavigation ?
+        <Navigation
           aboutScroll={aboutScroll}
           projectsScroll={projectsScroll}
           techScroll={techScroll}
           contactScroll={contactScroll}
-          />
+          homeScroll={homeScroll}
+        />
+        :
+        null}
+      <div className="home-section" name='home'>
+        <Home
+          aboutScroll={aboutScroll}
+          projectsScroll={projectsScroll}
+          techScroll={techScroll}
+          contactScroll={contactScroll}
+        />
       </div>
       <div className="about-section" name="about">
         <About />
