@@ -157,10 +157,10 @@ export default function Projects() {
                             <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="https://pocketprogrammers.herokuapp.com/" >
                                 <FontAwesomeIcon icon={faWindowRestore} />
                             </a>
-                            <ReactTooltip id='repo' type='light'>
+                            <ReactTooltip id='repo' type='light' effect='solid'>
                                 <span>GitHub Repo</span>
                             </ReactTooltip>
-                            <ReactTooltip id='deployed' type='light'>
+                            <ReactTooltip id='deployed' type='light' effect='solid'>
                                 <span>Live Demo</span>
                             </ReactTooltip>
                         </div>
@@ -195,10 +195,10 @@ export default function Projects() {
                             <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="http://gutthub.herokuapp.com/">
                                 <FontAwesomeIcon icon={faWindowRestore} />
                             </a>
-                            <ReactTooltip id='repo' type='light'>
+                            <ReactTooltip id='repo' type='light' effect='solid'>
                                 <span>GitHub Repo</span>
                             </ReactTooltip>
-                            <ReactTooltip id='deployed' type='light'>
+                            <ReactTooltip id='deployed' type='light' effect='solid'>
                                 <span>Live Demo</span>
                             </ReactTooltip>
                         </div>
@@ -234,10 +234,10 @@ export default function Projects() {
                             <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="https://ghostd-app.herokuapp.com/">
                                 <FontAwesomeIcon icon={faWindowRestore} />
                             </a>
-                            <ReactTooltip id='repo' type='light'>
+                            <ReactTooltip id='repo' type='light' effect='solid'>
                                 <span>GitHub Repo</span>
                             </ReactTooltip>
-                            <ReactTooltip id='deployed' type='light'>
+                            <ReactTooltip id='deployed' type='light' effect='solid'>
                                 <span>Live Demo</span>
                             </ReactTooltip>
                         </div>
@@ -274,10 +274,10 @@ export default function Projects() {
                             <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="https://henreth.github.io/nasavision/">
                                 <FontAwesomeIcon icon={faWindowRestore} />
                             </a>
-                            <ReactTooltip id='repo' type='light'>
+                            <ReactTooltip id='repo' type='light' effect='solid'>
                                 <span>GitHub Repo</span>
                             </ReactTooltip>
-                            <ReactTooltip id='deployed' type='light'>
+                            <ReactTooltip id='deployed' type='light' effect='solid'>
                                 <span>Live Demo</span>
                             </ReactTooltip>
                         </div>
