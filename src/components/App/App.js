@@ -81,15 +81,12 @@ export default function App() {
         <About />
       </div>
       <div className="projects-section" name="projects">
-        <hr />
         <Projects />
       </div>
       <div className="tech-section" name="tech" >
-        <hr />
         <Tech />
       </div>
       <div className="contact-section" name="contact">
-        <hr />
         <Contact />
       </div>
     </div>
