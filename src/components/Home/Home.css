@@ -78,4 +78,11 @@
   -webkit-transition: .5s;
   transition: .5s;
 }
+
+.nav-button:active {
+  cursor: pointer;
+  background-color: #cfcfcf;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
 /*# sourceMappingURL=Home.css.map */

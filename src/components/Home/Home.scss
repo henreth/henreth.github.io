@@ -26,8 +26,6 @@
     cursor: default;
     margin-bottom: 1.5em;
     color: rgb(240, 240, 240);
-    // color: #0f0;
-    // color: rgb(128, 246, 128);
     text-shadow: rgb(126, 126, 126) 0px 0px 10px;
     font-family: 'Ubuntu Mono', monospace;
     text-transform: lowercase;
@@ -57,8 +55,12 @@
     &:hover {
         cursor: pointer;
         background-color: rgb(126, 126, 126);
-        // color: rgb(128, 246, 128);
         transition: .5s;
+    }
 
+    &:active {
+        cursor: pointer;
+        background-color: rgb(207, 207, 207);
+        transition: .5s;
     }
 }
