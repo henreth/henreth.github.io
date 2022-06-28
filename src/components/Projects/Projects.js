@@ -49,6 +49,14 @@ export default function Projects() {
         </div>
     </div>
 
+    const madeWithFrontEndAlt = <div className="madewith">
+        <div className='madewith-title'>Made With:</div>
+        <div>
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
+        </div>
+    </div>
+
     return (
         <div className="port-section">
             <div>
@@ -125,7 +133,7 @@ export default function Projects() {
                             </div>
                             <div className="project-photo">
                                 <img src={pocketPhoto} width="450" />
-                                <h4 className="project-title pocket photo">>Pocket Programmers_</h4>
+                                <h4 className="project-title pocket photo">{'>'}Pocket Programmers_</h4>
                             </div>
                             <div className="project-photo">
                                 <img src={guthubPhoto} width="450" />
@@ -146,9 +154,48 @@ export default function Projects() {
                     </React.Fragment>
                 ) : null}
 
+                {project === 'flash' ? (
+                    <React.Fragment>
+                        <h2 className="project-title flash ">FLASHBOARD</h2>
+                        <div className="project-display">
+                            <img src={flashboardGif} width="700" />
+                        </div>
+                        <div className="project-description">
+                            <b className="project-tagline">A web application that utilizes the Flashbots mev-blocks api to visualize block and transaction data from the latest 100 Flashbots blocks.</b>
+                            <div className="project-features">
+                                <br />
+                                - View information from the latest 100 Flashbots blocks in table or graph format
+                                <br />
+                                - Custom select the range of information displayed using slider control
+                                <br />
+                                - Filter summary data for specific information types
+                                <br />
+                            </div>
+
+                        </div>
+
+                        <div className="project-footer">
+                            {madeWithFrontEndAlt}
+
+                            <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/flashboard" >
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a className="project-link" data-tip data-for='deployed' target="_blank" rel="noreferrer" href="https://henreth.github.io/nasavision/" >
+                                <FontAwesomeIcon icon={faWindowRestore} />
+                            </a>
+                            <ReactTooltip id='repo' type='light' effect='solid'>
+                                <span>GitHub Repo</span>
+                            </ReactTooltip>
+                            <ReactTooltip id='deployed' type='light' effect='solid'>
+                                <span>Live Demo</span>
+                            </ReactTooltip>
+                        </div>
+                    </React.Fragment>
+                ) : null}
+
                 {project === 'pocket' ? (
                     <React.Fragment>
-                        <h2 className="project-title pocket ">>Pocket Programmers_</h2>
+                        <h2 className="project-title pocket ">{'>'}Pocket Programmers_</h2>
                         <div className="project-display">
                             <img src={pocketGif} width="700" />
                         </div>
