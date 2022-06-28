@@ -74,6 +74,11 @@
           transform: scale(2);
 }
 
+.project-title.flash {
+  color: #d2d2d2;
+  font-family: 'Questrial', sans-serif;
+}
+
 .project-title.pocket {
   font-family: 'Ubuntu Mono', monospace;
   color: white;

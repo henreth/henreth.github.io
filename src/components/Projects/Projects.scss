@@ -1,8 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Vibur);
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
-.projects-section{
-  height: 110vh;
+.projects-section {
+    height: 110vh;
 
 }
 
@@ -12,16 +12,16 @@
     justify-content: center;
     left: 50;
 
-    &.images{
+    &.images {
         margin-top: 15px;
 
-        &.line-2{
+        &.line-2 {
             margin-top: 0px;
         }
     }
 }
 
-.project-photo{
+.project-photo {
     margin-left: 15px;
     margin-right: 15px;
 }
@@ -36,7 +36,7 @@
     align-items: center;
 }
 
-.project-description{
+.project-description {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,36 +56,41 @@
     font-size: large;
     transform: scale(2);
 
-    &.pocket{
+    &.flash {
+        color: rgb(210, 210, 210);
+        font-family: 'Questrial', sans-serif;
+    }
+
+    &.pocket {
         font-family: 'Ubuntu Mono', monospace;
         color: white;
         text-transform: lowercase;
     }
 
-    &.guthub{
+    &.guthub {
         color: rgba(244, 222, 206, 0.957);
         font-family: "Vibur";
         // text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff984474, 0 0 0.5em #ff984477, 0 0 0.1em #ff984466;
         transform: scale(3);
-        
+
     }
 
-    &.ghostd{
+    &.ghostd {
         font-family: 'Nosifer', cursive;
         color: #fff;
         opacity: .55;
     }
 
-    &.space{
+    &.space {
         font-family: 'Kdam Thmor Pro', sans-serif;
         color: white;
     }
 
-    &.photo{
+    &.photo {
         font-size: 12px;
     }
 
-    &.default{
+    &.default {
         // text-shadow: rgb(126, 126, 126) 0px 0px 10px;
         text-transform: lowercase;
 
@@ -99,7 +104,7 @@
     text-align: center;
     user-select: none;
     margin-bottom: 0px;
-  }
+}
 
 .project-options {
     text-align: center;
@@ -116,7 +121,7 @@
 }
 
 
-.project-logo{
+.project-logo {
     transition: .5s;
     cursor: pointer;
     // margin-left: 50px;
@@ -124,36 +129,35 @@
     width: 50px;
     transform: scale(1.25);
 
-    &.ghost{
+    &.ghost {
         filter: opacity(.45) drop-shadow(0 0 0 red);
         transition: .5s;
     }
 
-    &.unClicked{
-    filter: grayscale(100%);
-    transition: .5s;
-        &:hover{
-        transform: scale(1.1);
-        filter: grayscale(50%);
+    &.unClicked {
+        filter: grayscale(100%);
         transition: .5s;
-    }
-    }
 
-    &.ghostd{
-    filter: invert(50%);
-    transition: .5s;
-        &:hover{
-        filter: invert(25%);
-        transition: .5s;
-        
+        &:hover {
+            transform: scale(1.1);
+            filter: grayscale(50%);
+            transition: .5s;
         }
+    }
 
-        
+    &.ghostd {
+        filter: invert(50%);
+        transition: .5s;
 
+        &:hover {
+            filter: invert(25%);
+            transition: .5s;
+
+        }
     }
 }
 
-.project-features{
+.project-features {
     margin-bottom: 10px;
 }
 
@@ -164,8 +168,7 @@
     color: white;
 }
 
-.madewidth{
+.madewidth {
     display: flex;
     flex-direction: column;
-
 }

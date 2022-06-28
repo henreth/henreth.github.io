@@ -24,6 +24,7 @@ import "./Projects.css"
 export default function Projects() {
     const [project, setProject] = useState('default');
 
+    const clickFlash = () => setProject('flash');
     const clickPocket = () => setProject('pocket');
     const clickGuthub = () => setProject('guthub');
     const clickGhostd = () => setProject('ghostd');
@@ -53,6 +54,17 @@ export default function Projects() {
             <div>
                 <h1 className='project-header'>-</h1>
                 <div className="project-options">
+                    <button onClick={clickFlash}>
+                        <img
+                            data-tip data-for='flash'
+                            className={project === "flash" ? "project-logo" : "project-logo unClicked"}
+                            src={flashboardLogo}
+                            alt="flash"
+                        />
+                        <ReactTooltip id='flash' place="bottom" type='warning' effect='solid'>
+                            <span>Flashboard</span>
+                        </ReactTooltip>
+                    </button>
                     <button onClick={clickPocket}>
                         <img
                             data-tip data-for='pocket'
@@ -108,23 +120,26 @@ export default function Projects() {
                         </div>
                         <div className="project-display images">
                             <div className="project-photo">
+                                <img src={flashboardPhoto} width="450" />
+                                <h4 className="project-title flash photo">FLASHBOARD</h4>
+                            </div>
+                            <div className="project-photo">
                                 <img src={pocketPhoto} width="450" />
                                 <h4 className="project-title pocket photo">>Pocket Programmers_</h4>
                             </div>
                             <div className="project-photo">
-                            <img src={guthubPhoto} width="450" />
-                            <h4 className="project-title guthub photo">GutHub</h4>
+                                <img src={guthubPhoto} width="450" />
+                                <h4 className="project-title guthub photo">GutHub</h4>
                             </div>
                         </div>
                         <div className="project-display images line-2">
                             <div className="project-photo">
-                            <img src={ghostdPhoto} width="450" />
-                            <h4 className="project-title ghostd photo">ghostD</h4>
-
+                                <img src={ghostdPhoto} width="450" />
+                                <h4 className="project-title ghostd photo">ghostD</h4>
                             </div>
                             <div className="project-photo">
-                            <img src={nasavisionPhoto} width="450" />
-                            <h4 className="project-title space photo">NASAVISION</h4>
+                                <img src={nasavisionPhoto} width="450" />
+                                <h4 className="project-title space photo">NASAVISION</h4>
                             </div>
                         </div>
 
@@ -152,7 +167,7 @@ export default function Projects() {
                         </div>
 
                         <div className="project-footer">
-                        {madeWithFullStack}
+                            {madeWithFullStack}
 
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/pocketpros" >
                                 <FontAwesomeIcon icon={faGithub} />
@@ -190,7 +205,7 @@ export default function Projects() {
                         </div>
 
                         <div className="project-footer">
-                        {madeWithFullStack}
+                            {madeWithFullStack}
 
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/guthub">
                                 <FontAwesomeIcon icon={faGithub} />
@@ -229,7 +244,7 @@ export default function Projects() {
                         </div>
 
                         <div className="project-footer">
-                        {madeWithFullStack}
+                            {madeWithFullStack}
 
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/ghostd" >
                                 <FontAwesomeIcon icon={faGithub} />
@@ -269,7 +284,7 @@ export default function Projects() {
                         </div>
 
                         <div className="project-footer">
-                        {madeWithFrontEnd}
+                            {madeWithFrontEnd}
 
                             <a className="project-link" data-tip data-for='repo' target="_blank" rel="noreferrer" href="https://github.com/henreth/nasavision" >
                                 <FontAwesomeIcon icon={faGithub} />
