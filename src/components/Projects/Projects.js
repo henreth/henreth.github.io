@@ -12,9 +12,12 @@ import guthubPhoto from "./guthub/guthub-photo.png"
 import pocketLogo from "./pocket/pocket-logo.png"
 import pocketGif from "./pocket/pocket-demo.gif"
 import pocketPhoto from "./pocket/pocket-photo.png"
-import nasavisionLogo from "./space/nasavision.png"
+import nasavisionLogo from "./space/nasavision-logo.png"
 import nasavisionGif from "./space/nasavision-demo.gif"
 import nasavisionPhoto from "./space/nasavision-photo.png"
+import flashboardLogo from "./flash/flashboard-logo.png"
+import flashboardGif from "./flash/flashboard-demo.gif"
+import flashboardPhoto from "./flash/flashboard-photo.png"
 
 import "./Projects.css"
 
